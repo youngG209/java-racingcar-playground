@@ -1,6 +1,8 @@
-import domain.Car;
-import service.Condition;
-import service.Move;
+package beforeFeedback;
+
+import beforeFeedback.domain.Car;
+import beforeFeedback.service.Condition;
+import beforeFeedback.service.Move;
 
 import java.util.List;
 

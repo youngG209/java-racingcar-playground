@@ -1,6 +1,6 @@
-package service;
+package beforeFeedback.service;
 
-import domain.Car;
+import beforeFeedback.domain.Car;
 
 import java.util.ArrayList;
 import java.util.List;

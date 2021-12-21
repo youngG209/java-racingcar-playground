@@ -1,6 +1,6 @@
-package service;
+package beforeFeedback.service;
 
-import domain.Car;
+import beforeFeedback.domain.Car;
 
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class Move {
         return maxPosition;
     }
 
-    public List<Car> moveLocation(List<Car> cars) {
+    private List<Car> moveLocation(List<Car> cars) {
         List<Car> result = new ArrayList<>();
 
         for (Car car : cars) {
@@ -75,7 +75,7 @@ public class Move {
         return position;
     }
 
-    public boolean moveCondition() {
+    private boolean moveCondition() {
         int randomNum = new Random().nextInt(10);
         if (randomNum > 3) {
             return true;

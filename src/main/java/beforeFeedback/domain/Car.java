@@ -1,4 +1,4 @@
-package domain;
+package beforeFeedback.domain;
 
 public class Car {
     private String carName;
