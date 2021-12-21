@@ -1,6 +1,6 @@
-package beforeFeedback.service;
+package beforefeedback.service;
 
-import beforeFeedback.domain.Car;
+import beforefeedback.domain.Car;
 
 import java.util.*;
 
